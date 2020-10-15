@@ -66,3 +66,16 @@ img {max-width: 100%;}
 @media (min-width: 768px) {.texto-header {margin-top: 15rem;}}
 
 .texto-header p {font-size: 2.2rem;}
+
+/** Contenido principal **/
+.contenido-principal {display: flex; flex-wrap: wrap;}
+
+.blog, 
+.cursos {flex: 0 0 100%;}
+
+.cursos {order: -1;}
+@media (min-width: 768px) {
+    .contenido-principal {justify-content: space-between;}
+    .blog {flex-basis: 66.6%;}
+    .cursos {flex-basis: calc(33.3% - 4rem); order: 2;}
+}
