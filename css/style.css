@@ -118,3 +118,18 @@ img {max-width: 100%;}
 }
 .curso p span,
 .curso p.descripcion {font-weight: 400;}
+
+/** Footer **/
+.site-footer {
+    background-color: #000000;
+    padding: 3rem;
+    margin-top: 4rem;
+}
+.site-footer p {
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+.site-footer p span {font-weight: 700;}
