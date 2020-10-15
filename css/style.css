@@ -81,6 +81,8 @@ img {max-width: 100%;}
 }
 
 /** Opcional **/
+.entrada-blog {margin-bottom: 2rem; border-bottom: 1px solid #1E1E1E;}
+.entrada-blog:last-of-type {border: none;}
 .cursos-lista {padding: 0; list-style: none;}
 .curso {
     padding-top: 3rem;
